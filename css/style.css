@@ -1,0 +1,251 @@
+/*start generalni opisi*/
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:15px;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:35px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+h2{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	color:#ffbf00;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+h3{
+	font-family: 'Kaushan Script', cursive;
+	font-size:30px;
+	color:#ffbf00;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+h4{
+	color:#ffbf00;
+	margin-bottom:10px;
+}
+p{
+	line-height:1.5;
+}
+a:hover{
+	text-decoration:none;
+}
+a{
+	color:#760a25;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+:hover{
+	transition: 1.5s;
+	-webkit-transition: 1.5s;
+	-moz-transition: 1.5s;
+	-ms-transition: 1.5s;
+	-o-transition: 1.5s;
+}
+/*end genralni opisi*/
+/*start heder*/
+.navbar-brand img{
+	height:50px;
+}
+.navbar{
+	background:#675a6d;
+	padding:0;
+}
+.navbar-nav .nav-item .nav-link{
+	color:white;
+	font-size:20px;
+}
+.navbar-nav .nav-item.active .nav-link{
+	color:white;
+}
+.form-inline .btn{
+	color:white;
+	border:1px solid white;
+}
+.form-inline .btn:hover{
+	background:#760a25;
+	color:#ffff00;
+}
+.nav-link{
+	padding:18px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color:#ffff00;
+}
+.dropdown-menu{
+	background:#675a6d;
+}
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item{
+	color:white;
+}
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover{
+	color:#ffff00;
+	background:none;
+}
+/*end heder*/
+#slider .owl-dot:hover span{
+	background:#32a852;
+}
+#slider .owl-dot span{
+	background:	#ffff00;
+}
+.natrix{
+	box-shadow:0 0 5px 10px #ddd;
+	padding:20px;
+}
+.natrix:hover{
+	box-shadow:0 0 5px 10px #608312;
+}
+.leo{
+	position:relative;
+	overflow: hidden;
+}
+.leo1{
+	padding-top:20px;
+}
+.cornelia{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	opacity:0.4;
+}
+.vipera span::before{
+	font-size:70px;
+	color:#ffbf00;
+	box-shadow:0 0 10px 15px #ddd;
+	border-radius:50%;
+	padding:15px;
+	margin-left:56px;
+
+}
+.vipera span:hover::before{
+	color:white;
+	background:#647100 ;
+}
+.vipera a:hover i{
+	color:white;
+	background:#f9461d;
+}
+.vipera a:hover{
+	color:#608312;
+}
+.vipera a i{
+	border:1px solid #760a25;
+	border-radius:50%;
+	padding:5px 7px;
+	margin-left:15px;
+}
+.vipera a:hover i{
+	color:white;
+	background:#ffbf00;
+}
+.rana .btn{
+	color:#ffbf00;
+	display:block;
+	width:100%; 
+	text-align:left;
+}
+.rana .card-header{
+	background:#647100;
+}
+.rana .card-header h2 .btn{
+	font-size:25px;
+	text-align:center;
+	text-decoration:none;
+}
+.rana .card-header h2 .btn:hover{
+	color:#ffff00;
+	font-size:28px;
+}
+.triturus{
+	position:relative;
+}
+.alpestris{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	color:white;
+	padding:20px;
+	opacity:-1;
+}
+.alpestris:hover{
+	opacity:1;
+}
+.alpestris a{
+	color:white;
+}
+.alpestris a:hover{
+	color:#ffbf00;;
+}
+.alpestris i{
+	font-size:20px;
+}
+/*start footer*/
+.footer{
+	margin-top:20px;
+	background:#675a6d;
+	color:white;
+	padding:30px 50px;
+}
+.footer a{
+	color:white;
+}
+.footer a:hover{
+	color:#ffff00;
+}
+.footer p{
+	margin-bottom:1px;
+}
+.footer .mantis{
+	margin-bottom:70px;
+}
+.dominic{
+	font-size:30px;
+	margin-top:10px;
+	margin-right:5px;
+}
+/*end footer*/
+@media(max-width:768px){
+	.vipera span::before{
+		margin-left:295px;
+}
+	.leo{
+	background:rgb(229, 225, 231);
+	}
+	.photo .noo{
+	width:100%;
+	}
+}
+@media(max-width:425px){
+	.vipera span::before{
+		font-size:40px;
+		margin-left:145px;
+}
+	.leo{
+	background:rgb(229, 225, 231);
+	}
+}
+@media(max-width:768px){
+	.triturus img{
+		width:100%;
+	}
+}
+@media(max-width:375px){
+	.vipera span::before{
+		margin-left:118px;
+		font-size:25px;
+		box-shadow:none;
+}
+	.vipera a i{
+		border-radius:50%;
+		padding:3px 5px;
+	}
+	
+}
